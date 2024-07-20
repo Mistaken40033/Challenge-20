@@ -4,14 +4,14 @@
 :root {
   --raisin-black: #0b0c0c;
   --caput-mortuum: #061f45;
-  --burnt-sienna: #11a2a0;
+  --burnt-sienna: #0f12df;
   --melon: #ffffff;
   --almond: #28c6d2;
 }
 
 /* Apply background color to the body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Gill Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

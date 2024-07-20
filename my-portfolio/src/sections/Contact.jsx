@@ -62,8 +62,8 @@ const Contact = () => {
           {errors.message && <span>{errors.message}</span>}
         </div>
       </form>
-      <p>Email: developer@example.com</p>
-      <p>Phone: 123-456-7890</p>
+      <p>Email: ericab40033@hotmail.com</p>
+      <p>Phone: 303-000-0000</p>
     </section>
   );
 };
