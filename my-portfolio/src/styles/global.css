@@ -2,11 +2,11 @@
 
 /* Define CSS variables for your color palette */
 :root {
-  --raisin-black: #0b0c0c;
-  --caput-mortuum: #061f45;
-  --burnt-sienna: #0f12df;
-  --melon: #ffffff;
-  --almond: #28c6d2;
+  --raisin-black: #262322;
+  --caput-mortuum: #63372C;
+  --burnt-sienna: #C97D60;
+  --melon: #FFBCB5;
+  --almond: #F2E5D7;
 }
 
 /* Apply background color to the body */
