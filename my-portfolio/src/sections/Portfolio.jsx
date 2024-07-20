@@ -1,8 +1,9 @@
 // src/sections/Portfolio.jsx
+import React from 'react';
 import Project from '../components/Project';
 
 const projects = [
-  { title: 'Project 1', image: 'path-to-image1.jpg', appLink: 'http://app1.com', repoLink: 'http://github.com/repo1' },
+  { title: 'Project 1', image: 'my-portfolio/src/sections/bluepainting_by_me.png', appLink: 'http://app1.com', repoLink: 'https://github.com/Mistaken40033' },
   // Add more projects
 ];
 
