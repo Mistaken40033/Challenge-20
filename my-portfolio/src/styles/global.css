@@ -87,3 +87,9 @@ form span {
 .project h3 {
   color: var(--caput-mortuum);
 }
+/* src/styles/global.css or src/styles/Project.css */
+.img-small {
+  width: 150px;
+  height: auto;
+}
+

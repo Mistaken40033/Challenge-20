@@ -2,7 +2,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import bluePainting from './bluepainting_by_me.png'; // Import the image
-import Raccoon from '../sections/'
+import Raccoon from './Raccoon.png';
 
 const projects = [
   { title: 'Project 1', image: bluePainting, appLink: '', repoLink: 'git@github.com:Mistaken40033/Challenge-19.git' },
