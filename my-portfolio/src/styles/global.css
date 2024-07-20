@@ -1,41 +1,89 @@
 /* src/styles/global.css */
+
+/* Define CSS variables for your color palette */
+:root {
+  --raisin-black: #262322;
+  --caput-mortuum: #63372C;
+  --burnt-sienna: #C97D60;
+  --melon: #FFBCB5;
+  --almond: #F2E5D7;
+}
+
+/* Apply background color to the body */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header, footer {
-    background-color: #0c5196;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 1rem;
-  }
-  
-  .active {
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 2rem;
-  }
-  
-  form div {
-    margin-bottom: 1rem;
-  }
-  
-  form span {
-    color: red;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--almond);
+  color: var(--raisin-black);
+}
+
+/* Header styling */
+header {
+  background-color: var(--caput-mortuum);
+  color: var(--almond);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: var(--almond);
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--melon);
+}
+
+/* Section styling */
+section {
+  padding: 2rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--caput-mortuum);
+  color: var(--almond);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Contact form styling */
+form div {
+  margin-bottom: 1rem;
+}
+
+form span {
+  color: var(--burnt-sienna);
+}
+
+/* Project component styling */
+.project {
+  border: 1px solid var(--caput-mortuum);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  color: var(--caput-mortuum);
+}
