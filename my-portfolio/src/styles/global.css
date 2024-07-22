@@ -1,8 +1,8 @@
 /* Define CSS variables for your color palette */
 :root {
-  --raisin-black: #08a78f;
-  --caput-mortuum: #d9dfdb8d;
-  --burnt-sienna: 	#00ffd0;
+  --raisin-black: #dde00c;
+  --caput-mortuum: #d9dfdb79;
+  --burnt-sienna: 	#ffbb00;
   --melon: #ffffff;
   --almond: #eeb50a;
 }
@@ -78,7 +78,9 @@ form span {
   border: 10px solid var(--caput-mortuum);
   border-radius: 50px;
   padding: 1rem;
-  margin-bottom: 10;
+  /* margin-bottom: 10; */
+  display: inline-block;
+  flex-direction: row;
 }
 
 .project img {
@@ -102,11 +104,12 @@ section > div {
 .about-me-content {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align content to the right */
-  max-width: 600px;
+  align-items: flex-start; /* Align content to the right */
+  max-width: 900px;
+  margin: 0;
   color: var(--almond);
-  margin-left: auto; /* Align the entire div to the right */
-  text-align: justify; /* Align text to the right */
+  margin-left: auto;
+  text-align: left; /* Align text to the right */
 }
 
 .about-me-content h2 {
@@ -120,21 +123,23 @@ section > div {
 }
 
 .portfolio-content {
-  display: center;
+  display: flex;
   flex-direction: column;
-  align-items: first baseline; /* Align content to the right */
-  color: var(--almond);
-  margin-left: auto; /* Align the entire div to the right */
-  text-align: center; /* Align text to the right */
+  align-items: flex;
+  font-size: large;
+  color: #ffffff;
+  max-width: 900px;
+  margin: 0 40%;  
+  text-align: center; 
 }
 .resume-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Align items to the left */
-  color: var(--almond);
   margin: 0 40%; /* Center the entire div */
-  text-align: center; /* Align text to the left */
+  text-align: left; /* Align text to the left */
   max-width: 600px;
+  font-size: x-large;
 }
 .contact-content {
   display: flex;
