@@ -11,6 +11,13 @@ Currently, two official plugins are available:
 ## Description
 React Challenge: React Portfolio
 
+## Links
+- Repo (git@github.com:Mistaken40033/Challenge-20.git)
+- Netlify (https://portfolio-challenge20-mistaken.netlify.app/)
+
+
+![preview](image.png)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
