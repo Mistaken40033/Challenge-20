@@ -5,9 +5,9 @@ import bluePainting from './bluepainting_by_me.png'; // Import the image
 import Raccoon from './Raccoon.png';
 
 const projects = [
-  { title: 'Project 1', image: bluePainting, appLink: '', repoLink: 'git@github.com:Mistaken40033/Challenge-19.git' },
-  // Add more projects
-  { title: 'Project 1', image: Raccoon, appLink: '', repoLink: 'git@github.com:Mistaken40033/blog-beats.git' },
+  { title: 'Blog Beats Teamwork', image: bluePainting, repoLink: 'https://github.com/Mistaken40033/blog-beats.git' },
+  // Add more projectst
+  { title: 'Team Resource Rascals', image: Raccoon, repoLink: 'https://github.com/Mistaken40033/team_resource_rascals.git' },
 ];
 
 const Portfolio = () => (
