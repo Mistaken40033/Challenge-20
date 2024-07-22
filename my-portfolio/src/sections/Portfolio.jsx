@@ -12,10 +12,12 @@ const projects = [
 
 const Portfolio = () => (
   <section>
+    <div className="portfolio-content">
     <h2>Portfolio</h2>
     {projects.map((project, index) => (
       <Project key={index} {...project} />
     ))}
+    </div>
   </section>
 );
 

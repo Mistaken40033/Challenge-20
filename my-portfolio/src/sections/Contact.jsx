@@ -27,6 +27,7 @@ const Contact = () => {
 
   return (
     <section>
+      <div className="contact-content">
       <h2>Contact</h2>
       <form>
         <div>
@@ -64,6 +65,7 @@ const Contact = () => {
       </form>
       <p>Email: ericab40033@hotmail.com</p>
       <p>Phone: 303-000-0000</p>
+      </div>
     </section>
   );
 };

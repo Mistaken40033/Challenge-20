@@ -1,27 +1,28 @@
-/* src/styles/global.css */
-
 /* Define CSS variables for your color palette */
 :root {
-  --raisin-black: #262322;
-  --caput-mortuum: #63372C;
-  --burnt-sienna: #C97D60;
-  --melon: #FFBCB5;
-  --almond: #F2E5D7;
+  --raisin-black: #08a78f;
+  --caput-mortuum: #d9dfdb8d;
+  --burnt-sienna: 	#00ffd0;
+  --melon: #ffffff;
+  --almond: #eeb50a;
 }
 
 /* Apply background color to the body */
 body {
-  font-family: "Gill Sans", sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px;
+  padding:0;
   box-sizing: border-box;
-  background-color: var(--almond);
+  background: url('https://i.pinimg.com/564x/40/1c/4e/401c4eea11e25db1a1344926bb0246a4.jpg') no-repeat left center fixed;
+  background-size: contain;
+  background-color:#0e0f14;
   color: var(--raisin-black);
 }
 
 /* Header styling */
 header {
   background-color: var(--caput-mortuum);
+  border-radius: 50px;
   color: var(--almond);
   padding: 1rem;
   text-align: center;
@@ -57,6 +58,7 @@ section {
 /* Footer styling */
 footer {
   background-color: var(--caput-mortuum);
+  border-radius: 50px;
   color: var(--almond);
   padding: 1rem;
   text-align: center;
@@ -73,10 +75,10 @@ form span {
 
 /* Project component styling */
 .project {
-  border: 1px solid var(--caput-mortuum);
-  border-radius: 5px;
+  border: 10px solid var(--caput-mortuum);
+  border-radius: 50px;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10;
 }
 
 .project img {
@@ -93,3 +95,53 @@ form span {
   height: auto;
 }
 
+section > div {
+  display: grid;
+  justify-content: right;
+}
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align content to the right */
+  max-width: 600px;
+  color: var(--almond);
+  margin-left: auto; /* Align the entire div to the right */
+  text-align: justify; /* Align text to the right */
+}
+
+.about-me-content h2 {
+  font-weight: bold;
+}
+
+.about-me-content img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.portfolio-content {
+  display: center;
+  flex-direction: column;
+  align-items: first baseline; /* Align content to the right */
+  color: var(--almond);
+  margin-left: auto; /* Align the entire div to the right */
+  text-align: center; /* Align text to the right */
+}
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  color: var(--almond);
+  margin: 0 40%; /* Center the entire div */
+  text-align: center; /* Align text to the left */
+  max-width: 600px;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  color: var(--almond);
+  margin: 0 40%; /* Center the entire div */
+  text-align: center; /* Align text to the left */
+  max-width: 600px;
+}
